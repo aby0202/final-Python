@@ -28,7 +28,7 @@ def agregarTrabajador(listado):
   edad = validarIngresoEntero("Edad: ")
   dni=validarIngresoEntero("dni: ")
   profesion=input("profesion: ")
-  activo=input("activo: ")#aca no se si poner bool porque debo pasar true o false, si pongo bool ni siquiera me aparece para completar
+  activo=input("activo: ")#aca no se si poner bool porque debo pasar true o false, si pongo bool ni siquiera me aparece para completar0
 
   # Crea al trabajador y lo guarda en el listado
   trabajador = {"codigo":codigo,"nombre":nombre, "edad":edad, "dni":dni, "profesion":profesion, "activo":activo}
